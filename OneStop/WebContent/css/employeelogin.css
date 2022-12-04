@@ -1,0 +1,617 @@
+@charset "ISO-8859-1";
+* {
+    width: 100%;
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    
+        
+}
+/*header part*/
+.header 
+{
+    width: 100%;
+    background-color: #525659;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    padding: 10px 0;
+    font-size: small;
+    font-size: xx-small;
+}
+.headerdetailcontainer 
+{
+    margin-right: 1px;
+    width: calc(100% - 2px);
+    
+}
+.headerdetailheader
+{
+    display: flex;
+    border: 5px solid black;
+    background-color: black;
+    align-items: center;
+    font-size: large;
+    font-weight: 700;
+}
+.headerdetail 
+{
+    padding: 10px 5px;
+    flex: 4;
+    padding-left: 250px;
+    margin: 0 350px;
+    margin-right: 120px;
+    
+}
+
+.menuitems 
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin: 0 10px;
+    
+    
+}
+.menu 
+{
+    text-align: right;
+    margin: auto auto;
+   
+}
+
+.menu a 
+{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    
+    
+}
+.bottomheader
+{
+    display: flex;
+    border: 5px solid rgb(52, 52, 52);
+    background-color: rgb(52, 52, 52);
+    align-items: center;
+    font-size: large;
+    font-weight: 700;
+}
+.bottomheaderdetail 
+{
+    padding: 50px 5px;
+    flex: 4;
+    margin: 0 70px;
+}
+.leftitem
+{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.imagediv {
+
+    display: flex;
+    width: 100px;
+    height: 80;
+}
+
+.imagediv img {
+    margin: auto 0px;
+    height: 80px;
+    margin-top: -40px;
+    
+}
+.navigationbar {
+    flex: 3;
+    display: flex;
+    margin-top: -85px;
+    padding-left: 150px;
+    
+}
+.navigationbar ul li
+{
+    list-style: none;
+	display: inline-block;
+	margin: 0 10px;
+	position: relative;
+    
+}
+.navigationbar ul li
+{
+    text-decoration: none;
+	color: #FFFFFF;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin: 0 350px;
+    margin-left: 10px;
+    
+}
+
+.nav {
+    text-align: center;
+    margin: auto auto;
+    
+    
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;     
+}
+a:hover 
+{
+    color: rgb(230, 84, 243);
+}
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 50%;
+    background: #f1f1f1;
+    margin-top: 25px;
+    margin-left: 220px;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    margin-top: 25px;
+    float: left;
+    width: 10%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.productsection
+{
+    display: flex;
+    border: 3px solid rgb(16, 16, 16);
+    background-color: rgb(108, 7, 93);
+    align-items: center;
+    font-size: large;
+    font-weight: 700;
+    margin-top: -52px;
+}
+.productdetail 
+{
+    padding: 15px 5px;
+    flex: 4;
+    margin: 0 30px;
+}
+.dropbtn {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 160px;
+    margin-top: -15px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    width: 160px;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 100px;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #00a5f1;}
+
+.productbar
+{
+    flex: 3;
+    display: flex;
+    margin-top: -40px;
+    padding-left: 189px;
+    margin-bottom: 4px;
+    
+}
+.productbar ul li
+{
+    list-style: none;
+	display: inline-block;
+	margin: 0 10px;
+	position: relative;
+    
+}
+.productbar ul li
+{
+    text-decoration: none;
+	color: #FFFFFF;
+}
+
+.product {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin: 0 350px;
+    margin-left: 10px;
+    
+}
+
+.prod {
+    text-align: center;
+    margin: auto auto;
+    
+    
+}
+
+.prod a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;     
+}
+
+/*body section*/
+.bodysection 
+{
+    position: relative;
+    width: 91vw;
+    height: 52vh;
+
+}
+.login
+{
+width: 500px;
+margin-left: 500px;
+margin-top: 100px;
+font-size: large;
+}
+.log
+{
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    background-color: rgb(0, 167, 64);
+    padding: 10px 23px;
+    color: white;
+    border-color: rgb(0, 167, 64);
+    box-shadow: 1px 1px #7b7877;
+    cursor: pointer;
+    
+}
+.loginheader
+{
+	margin: 0 auto;
+    width: 100%;
+    height: 85px;
+    background-color: rgb(186, 36, 28);
+    padding: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+
+/*footer part*/
+
+.footersection
+{
+    width: 100%;
+    height: 400px;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.bottomtitem
+{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.image2div 
+{
+
+    display: flex;
+    width: 100px;
+    height: 80;
+}
+
+.image2div img {
+    margin: auto 0px;
+    height: 80px;
+    margin-top: 60px;
+    margin-left: 50px;
+    
+}
+form.example2 input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 40%;
+    background: #f1f1f1;
+    margin-top: -75px;
+    margin-left: 250px;
+    
+}
+  
+  /* Style the submit button */
+form.example2 button 
+{
+    margin-top: -75px;
+    float: left;
+    margin-left: 705px;
+    width: 10%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+}
+  
+form.example2 button:hover 
+{
+    background: #0b7dda;
+}
+  
+  /* Clear floats */
+form.example2::after 
+{
+    content: "";
+    clear: both;
+    display: table;
+}
+.socialbar 
+{
+    padding: 1px 5px;
+    flex: 4;
+    padding-left: 250px;
+    margin-left: 750px;  
+    width: 700px;
+    margin-top: -75px;
+}
+.socialMediaIcons 
+{
+    /* background-color: red; */
+    align-items: center;
+    padding: 15px 50px;
+    flex: 5;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+  
+i.fa-facebook-square 
+{
+    color: #214a9c;
+    /* background-color: #080808; */
+}
+  
+i.fa-instagram 
+{
+    color: #E1306C;
+}
+  
+i.fa-twitter 
+{
+    color: #1DA1F2;
+}
+  
+i.fa-google
+{
+    color: #ff0022;
+}
+.footertext
+{
+    
+    flex: 4;
+    padding-left: 20px;
+    margin-right: 1px;  
+    width: 100%;
+    margin-top: -65px;
+}
+i.fa-phone
+{
+    color: #ffffff;
+}
+.quicklinkcontaineritem {
+    position: relative;
+    padding-bottom: 20px;
+
+}
+
+.quicklinkcontainer {
+    padding: 1px 5px;
+    flex: 4;
+    
+    margin-left: -50px;  
+    width: 300px;
+    margin-top: -255px; 
+}
+.first {
+    text-align: left;
+    margin: auto auto;
+    margin-left: -15px;
+    
+    
+}
+
+.first a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: medium;
+         
+}
+.usefullinkcontaineritem {
+    position: relative;
+    padding-bottom: 20px;
+
+}
+
+.usefullinkcontainer {
+    padding: 1px 5px;
+    flex: 4;
+    
+    margin-left: 400px;  
+    width: 300px;
+    margin-top: -220px; 
+}
+.second 
+{
+    text-align: left;
+    margin: auto auto;
+    margin-left: -20px;
+    
+    
+}
+.second a 
+{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: medium;
+         
+}
+.categorycontaineritem {
+    position: relative;
+    padding-bottom: 20px;
+
+}
+
+.categorycontainer {
+    padding: 1px 5px;
+    flex: 4;
+    
+    margin-left: 800px;  
+    width: 300px;
+    margin-top: -220px; 
+}
+.third 
+{
+    text-align: left;
+    margin: auto auto;
+    margin-left: -20px;
+    
+    
+}
+.third a 
+{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: medium;
+         
+}
+.customerservicecontaineritem {
+    position: relative;
+    padding-bottom: 20px;
+
+}
+
+.customerservicecontainer {
+    padding: 1px 5px;
+    flex: 4;
+    
+    margin-left: 1200px;  
+    width: 300px;
+    margin-top: -220px; 
+}
+.fourth 
+{
+    text-align: left;
+    margin: auto auto;
+    margin-left: -20px;
+    
+    
+}
+.fourth a 
+{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: medium;
+         
+}
+.endfooter
+{
+    width: 100%;
+    height: 50px;
+    background-color: #6c6c6c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardArea{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-top: -45px;
+    margin-left: -10px;
+}
+
+.cardArea img{
+    width: 50px;
+    height: 45px;
+    margin: 10px;
+    border-radius: 5px
+}
